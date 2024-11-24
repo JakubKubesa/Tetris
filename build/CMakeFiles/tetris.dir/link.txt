@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/tetris.dir/src/tetris.c.o CMakeFiles/tetris.dir/src/funkce.c.o -o tetris  /usr/lib/x86_64-linux-gnu/libSDL2.so -lSDL2_ttf 
