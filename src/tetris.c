@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
     SDL_Init(SDL_INIT_VIDEO);
     TTF_Init();
 
-    TTF_Font* font = TTF_OpenFont("/mnt/c/Users/jakub/Documents/skola/upr/tetris/Arial.ttf", 50);
+    TTF_Font* font = TTF_OpenFont("../Arial.ttf", 50);
 
     // Vytvoření okna
     SDL_Window* window = SDL_CreateWindow(
@@ -216,9 +216,10 @@ int main(int argc, char *argv[])
         sprintf(text, "Score: %d", score);
         sprintf(MScore, "Max score: %d", MaxScore);
 
-        if(novyObjekt == 0 && gameOver == false){
+        if(novyObjekt == 0 && !gameOver){
             if(cyklus == 0){
                 randomObjekt = rand() % 7;
+                //randomObjekt = 1;
             }else{
                 randomObjekt = nasledujiciObjekt;
             }
@@ -229,6 +230,7 @@ int main(int argc, char *argv[])
                 }
             }
             nasledujiciObjekt = rand() % 7;
+            //nasledujiciObjekt=1;
 
             r=0;
             nasledujici = 1;

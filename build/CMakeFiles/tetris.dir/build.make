@@ -83,34 +83,66 @@ CMakeFiles/tetris.dir/src/tetris.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tetris.dir/src/tetris.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/jakub/Documents/skola/upr/tetris/src/tetris.c -o CMakeFiles/tetris.dir/src/tetris.c.s
 
-CMakeFiles/tetris.dir/src/funkce.c.o: CMakeFiles/tetris.dir/flags.make
-CMakeFiles/tetris.dir/src/funkce.c.o: /mnt/c/Users/jakub/Documents/skola/upr/tetris/src/funkce.c
-CMakeFiles/tetris.dir/src/funkce.c.o: CMakeFiles/tetris.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/jakub/Documents/skola/upr/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/tetris.dir/src/funkce.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/funkce.c.o -MF CMakeFiles/tetris.dir/src/funkce.c.o.d -o CMakeFiles/tetris.dir/src/funkce.c.o -c /mnt/c/Users/jakub/Documents/skola/upr/tetris/src/funkce.c
+CMakeFiles/tetris.dir/src/vykresli.c.o: CMakeFiles/tetris.dir/flags.make
+CMakeFiles/tetris.dir/src/vykresli.c.o: /mnt/c/Users/jakub/Documents/skola/upr/tetris/src/vykresli.c
+CMakeFiles/tetris.dir/src/vykresli.c.o: CMakeFiles/tetris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/jakub/Documents/skola/upr/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/tetris.dir/src/vykresli.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/vykresli.c.o -MF CMakeFiles/tetris.dir/src/vykresli.c.o.d -o CMakeFiles/tetris.dir/src/vykresli.c.o -c /mnt/c/Users/jakub/Documents/skola/upr/tetris/src/vykresli.c
 
-CMakeFiles/tetris.dir/src/funkce.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tetris.dir/src/funkce.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/jakub/Documents/skola/upr/tetris/src/funkce.c > CMakeFiles/tetris.dir/src/funkce.c.i
+CMakeFiles/tetris.dir/src/vykresli.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tetris.dir/src/vykresli.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/jakub/Documents/skola/upr/tetris/src/vykresli.c > CMakeFiles/tetris.dir/src/vykresli.c.i
 
-CMakeFiles/tetris.dir/src/funkce.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tetris.dir/src/funkce.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/jakub/Documents/skola/upr/tetris/src/funkce.c -o CMakeFiles/tetris.dir/src/funkce.c.s
+CMakeFiles/tetris.dir/src/vykresli.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tetris.dir/src/vykresli.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/jakub/Documents/skola/upr/tetris/src/vykresli.c -o CMakeFiles/tetris.dir/src/vykresli.c.s
+
+CMakeFiles/tetris.dir/src/pohyb.c.o: CMakeFiles/tetris.dir/flags.make
+CMakeFiles/tetris.dir/src/pohyb.c.o: /mnt/c/Users/jakub/Documents/skola/upr/tetris/src/pohyb.c
+CMakeFiles/tetris.dir/src/pohyb.c.o: CMakeFiles/tetris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/jakub/Documents/skola/upr/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/tetris.dir/src/pohyb.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/pohyb.c.o -MF CMakeFiles/tetris.dir/src/pohyb.c.o.d -o CMakeFiles/tetris.dir/src/pohyb.c.o -c /mnt/c/Users/jakub/Documents/skola/upr/tetris/src/pohyb.c
+
+CMakeFiles/tetris.dir/src/pohyb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tetris.dir/src/pohyb.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/jakub/Documents/skola/upr/tetris/src/pohyb.c > CMakeFiles/tetris.dir/src/pohyb.c.i
+
+CMakeFiles/tetris.dir/src/pohyb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tetris.dir/src/pohyb.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/jakub/Documents/skola/upr/tetris/src/pohyb.c -o CMakeFiles/tetris.dir/src/pohyb.c.s
+
+CMakeFiles/tetris.dir/src/menu.c.o: CMakeFiles/tetris.dir/flags.make
+CMakeFiles/tetris.dir/src/menu.c.o: /mnt/c/Users/jakub/Documents/skola/upr/tetris/src/menu.c
+CMakeFiles/tetris.dir/src/menu.c.o: CMakeFiles/tetris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/jakub/Documents/skola/upr/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/tetris.dir/src/menu.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/menu.c.o -MF CMakeFiles/tetris.dir/src/menu.c.o.d -o CMakeFiles/tetris.dir/src/menu.c.o -c /mnt/c/Users/jakub/Documents/skola/upr/tetris/src/menu.c
+
+CMakeFiles/tetris.dir/src/menu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tetris.dir/src/menu.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/jakub/Documents/skola/upr/tetris/src/menu.c > CMakeFiles/tetris.dir/src/menu.c.i
+
+CMakeFiles/tetris.dir/src/menu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tetris.dir/src/menu.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/jakub/Documents/skola/upr/tetris/src/menu.c -o CMakeFiles/tetris.dir/src/menu.c.s
 
 # Object files for target tetris
 tetris_OBJECTS = \
 "CMakeFiles/tetris.dir/src/tetris.c.o" \
-"CMakeFiles/tetris.dir/src/funkce.c.o"
+"CMakeFiles/tetris.dir/src/vykresli.c.o" \
+"CMakeFiles/tetris.dir/src/pohyb.c.o" \
+"CMakeFiles/tetris.dir/src/menu.c.o"
 
 # External object files for target tetris
 tetris_EXTERNAL_OBJECTS =
 
 tetris: CMakeFiles/tetris.dir/src/tetris.c.o
-tetris: CMakeFiles/tetris.dir/src/funkce.c.o
+tetris: CMakeFiles/tetris.dir/src/vykresli.c.o
+tetris: CMakeFiles/tetris.dir/src/pohyb.c.o
+tetris: CMakeFiles/tetris.dir/src/menu.c.o
 tetris: CMakeFiles/tetris.dir/build.make
 tetris: /usr/lib/x86_64-linux-gnu/libSDL2.so
 tetris: CMakeFiles/tetris.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/jakub/Documents/skola/upr/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable tetris"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/jakub/Documents/skola/upr/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable tetris"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tetris.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

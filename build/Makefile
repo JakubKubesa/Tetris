@@ -129,29 +129,53 @@ tetris/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/build
 .PHONY : tetris/fast
 
-src/funkce.o: src/funkce.c.o
-.PHONY : src/funkce.o
+src/menu.o: src/menu.c.o
+.PHONY : src/menu.o
 
 # target to build an object file
-src/funkce.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/funkce.c.o
-.PHONY : src/funkce.c.o
+src/menu.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/menu.c.o
+.PHONY : src/menu.c.o
 
-src/funkce.i: src/funkce.c.i
-.PHONY : src/funkce.i
+src/menu.i: src/menu.c.i
+.PHONY : src/menu.i
 
 # target to preprocess a source file
-src/funkce.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/funkce.c.i
-.PHONY : src/funkce.c.i
+src/menu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/menu.c.i
+.PHONY : src/menu.c.i
 
-src/funkce.s: src/funkce.c.s
-.PHONY : src/funkce.s
+src/menu.s: src/menu.c.s
+.PHONY : src/menu.s
 
 # target to generate assembly for a file
-src/funkce.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/funkce.c.s
-.PHONY : src/funkce.c.s
+src/menu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/menu.c.s
+.PHONY : src/menu.c.s
+
+src/pohyb.o: src/pohyb.c.o
+.PHONY : src/pohyb.o
+
+# target to build an object file
+src/pohyb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/pohyb.c.o
+.PHONY : src/pohyb.c.o
+
+src/pohyb.i: src/pohyb.c.i
+.PHONY : src/pohyb.i
+
+# target to preprocess a source file
+src/pohyb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/pohyb.c.i
+.PHONY : src/pohyb.c.i
+
+src/pohyb.s: src/pohyb.c.s
+.PHONY : src/pohyb.s
+
+# target to generate assembly for a file
+src/pohyb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/pohyb.c.s
+.PHONY : src/pohyb.c.s
 
 src/tetris.o: src/tetris.c.o
 .PHONY : src/tetris.o
@@ -177,6 +201,30 @@ src/tetris.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/tetris.c.s
 .PHONY : src/tetris.c.s
 
+src/vykresli.o: src/vykresli.c.o
+.PHONY : src/vykresli.o
+
+# target to build an object file
+src/vykresli.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/vykresli.c.o
+.PHONY : src/vykresli.c.o
+
+src/vykresli.i: src/vykresli.c.i
+.PHONY : src/vykresli.i
+
+# target to preprocess a source file
+src/vykresli.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/vykresli.c.i
+.PHONY : src/vykresli.c.i
+
+src/vykresli.s: src/vykresli.c.s
+.PHONY : src/vykresli.s
+
+# target to generate assembly for a file
+src/vykresli.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/vykresli.c.s
+.PHONY : src/vykresli.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tetris"
-	@echo "... src/funkce.o"
-	@echo "... src/funkce.i"
-	@echo "... src/funkce.s"
+	@echo "... src/menu.o"
+	@echo "... src/menu.i"
+	@echo "... src/menu.s"
+	@echo "... src/pohyb.o"
+	@echo "... src/pohyb.i"
+	@echo "... src/pohyb.s"
 	@echo "... src/tetris.o"
 	@echo "... src/tetris.i"
 	@echo "... src/tetris.s"
+	@echo "... src/vykresli.o"
+	@echo "... src/vykresli.i"
+	@echo "... src/vykresli.s"
 .PHONY : help
 
 
